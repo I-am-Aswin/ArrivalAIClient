@@ -10,7 +10,7 @@ const HelloWorld = () => {
 
     return ( 
         <div>
-            <h3 className="text-4xl text-slate-800 font-bold"> Hello {uname}....!</h3>
+            <h3 className="text-4xl text-slate-800 font-bold"> Hello {uname ? uname : "World"}....!</h3>
         </div>
      );
 }
